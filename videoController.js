@@ -21,11 +21,10 @@ exports.index = function(req, res){
 //Handle insert video actions
 exports.new = function(req, res){
     var video = new Video();
-    video.title = req.body.title ? req.body.title : video.title
+    video.title = req.body.title ? req.body.title : video.title;
     video.thumbnailURL = req.body.thumbnailURL;
     video.videoURL = req.body.videoURL,
     video.videoDuration = req.body.videoDuration;
-
     // Save the video and check for errors
     video.save(function(err){
         //if(err)

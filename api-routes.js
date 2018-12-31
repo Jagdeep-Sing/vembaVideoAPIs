@@ -14,7 +14,9 @@ router.route('/videos')
     .post(videoController.new);
 
 router.route('/videos/:video_id')
-    .get(videoController.view);
-    
+    .get(videoController.view)
+    .delete(videoController.delete);
+
+
 //Export API routes
 module.exports = router;

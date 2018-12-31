@@ -2,12 +2,8 @@ let express = require('express');
 let bodyParser = require('body-parser');
 let mongoose = require('mongoose');
 
-
-let apiRoutes = require("./api-routes");
-
 let app = express();
 
-app.use('/api',apiRoutes);
 
 // Configure bodyparser to handle post requests
 app.use(bodyParser.urlencoded({
@@ -19,10 +15,15 @@ app.use(bodyParser.json());
 mongoose.connect('mongodb://localhost/vembaVideo');
 var db = mongoose.connection;
 
-
 var port = process.env.PORT || 8080;
 
+let apiRoutes = require("./api-routes");
+
 app.get('/', (req, res) => res.send('Hello World with Express'));
+
+
+app.use('/api',apiRoutes);
+
 
 
 app.listen(port, function () {
