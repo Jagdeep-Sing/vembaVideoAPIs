@@ -1,0 +1,4 @@
+To Shuffle videos we can put all the videos in Array and will shuffle that array every time user click shuffle.
+
+Or If using PHP then we can pass the whole array to inbuilt PHP shuffle() function
+http://php.net/manual/en/function.shuffle.php
