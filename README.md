@@ -14,10 +14,10 @@ To view all videos send GET request to :
 
 To insert a video send POST request to Same URL with following values as x-www-form-urlencoded data:
 
-title
-videoURL
-thumbnailURL
-videoDuration
+<i> title </i> <br>
+<i> videoURL</i><br>
+<i>thumbnailURL </i><br>
+<i>videoDuration</i>
 
 To Delete a video send DELETE request to Same URL with video id:
 
