@@ -12,7 +12,11 @@ To view all videos send GET request to :
 
  GET http://localhost:8080/api/videos
 
-To insert a video send POST request to Sampe URL
+To insert a video send POST request to Same URL with following values as x-www-form-urlencoded data:
+title
+videoURL
+thumbnailURL
+videoDuration
 
 To Delete a video send DELETE request to Same URL with video id:
 
