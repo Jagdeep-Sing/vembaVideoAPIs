@@ -2,11 +2,11 @@
 
 How to setup:
 
-Mongodb is needed to run the app
+<b><i>Mongodb is needed to run the app</i></b>
 
-npm install
+`npm install`
 
-node index
+`node index`
 
 To view all videos send GET request to :
 
