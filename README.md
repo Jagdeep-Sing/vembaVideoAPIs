@@ -8,6 +8,8 @@ How to setup:
 
 `node index`
 
+<big><b>INSERT | VIEW | DELETE a Video</b></big>
+
 To view all videos send GET request to :
 
  GET http://localhost:8080/api/videos
