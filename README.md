@@ -1,21 +1,14 @@
 # vembaVideoAPIs
 
 INSTRUCTIONS:
-
-1. Test Live 
-2. Run Locally
+ Run Locally
 
 ________________________________________________________________
-<b>1. TEST Live </b>
 
-The App is Live at:  http://165.227.13.44:8085/api/videos/
-
-You can test all GET, POST, DELETE Request to this end point
-Read in point 2 how to send requests.
 _________________________________________________________________
 
 
-<b>2. Run Locally </b>
+<b> Run Locally </b>
 
 <b><i>Mongodb is needed to run the app</i></b>
 
